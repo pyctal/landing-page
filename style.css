@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* General styles */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+/* Header content styles */
+
+.header {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding: 0 96px;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 0;
+}
+
+.logo,
+h1,
+.hero-text-container button {
+  color: #f9faf8;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.nav-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+}
+
+.nav-container a,
+.hero-container p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.nav-container a {
+  text-decoration: none;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 48px;
+  padding: 96px 0;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+}
+
+.hero-container img {
+  flex-shrink: 0;
+}
