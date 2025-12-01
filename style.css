@@ -33,8 +33,7 @@ body {
 }
 
 .logo,
-h1,
-.hero-text-container button {
+h1 {
   color: #f9faf8;
 }
 
@@ -55,7 +54,7 @@ h1 {
 }
 
 .nav-container a,
-.hero-container p {
+.hero-text-container p {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -66,7 +65,6 @@ h1 {
 
 .hero-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   overflow: hidden;
   gap: 48px;
@@ -80,13 +78,45 @@ h1 {
   gap: 8px;
 }
 
-button {
+.hero-text-container button {
+  color: white;
   background-color: #3882f6;
+  padding: 8px 24px;
   border: none;
   border-radius: 8px;
-  padding: 8px 24px;
 }
 
 .hero-container img {
   flex-shrink: 0;
+}
+
+/* Information content styles */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding: 48px 0;
+}
+
+.figure-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 96px;
+  gap: 48px;
+}
+
+.figure img,
+.figure p {
+  width: 150px;
+}
+
+.figure p {
+  text-align: center;
 }
