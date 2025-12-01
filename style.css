@@ -173,3 +173,12 @@ h1 {
   border: 2px solid white;
   border-radius: 8px;
 }
+
+/* Footer content styles */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px 0;
+}
