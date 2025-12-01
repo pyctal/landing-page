@@ -119,3 +119,23 @@ h1 {
 .figure p {
   text-align: center;
 }
+
+/* Quote content styles */
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 96px 192px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.citation {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
