@@ -139,3 +139,36 @@ h1 {
   font-weight: bold;
   text-align: right;
 }
+
+/* Call to action content styles */
+
+.call-to-action-section {
+  padding: 96px;
+}
+
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882f6;
+  gap: 16px;
+  padding: 48px 96px;
+  border-radius: 8px;
+}
+
+.banner-text h2 {
+  color: #f9faf8;
+}
+
+.banner-text p {
+  color: #e5e7eb;
+}
+
+.banner-container button {
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 24px;
+  border: 2px solid white;
+  border-radius: 8px;
+}
