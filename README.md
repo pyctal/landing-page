@@ -6,16 +6,21 @@ This project is a recreation of a landing page design provided by **The Odin Pro
 
 This assignment focuses on building layouts, positioning elements, and managing whitespace effectively without relying on frameworks.
 
-## 🌟 Features
+## Features
 
 - **Header Section:** Includes a logo and navigation links aligned horizontally using Flexbox.
+
 - **Hero Section:** Features a main headline, subtext, and a call-to-action button alongside a placeholder image.
-- **Information Section:** A grid-style layout displaying four illustrated cards with subtext, centered and spaced evenly.
+
+- **Information Section:** A grid-style layout displaying illustrated cards with subtext, centered and spaced evenly.
+
 - **Quote Section:** A distinct content block with styled typography and background color.
+
 - **Call to Action:** A centered modal-style box with a button.
+
 - **Footer:** A sticky footer with copyright information.
 
-## 🛠 Skills Demonstrated
+## Skills Demonstrated
 
 By completing this project, I have demonstrated proficiency in the following areas:
 
@@ -24,9 +29,9 @@ By completing this project, I have demonstrated proficiency in the following are
 This project relies heavily on **Flexbox** to manage the layout structure. Key concepts applied include:
 
 - **Flex Containers:** Using `display: flex` to create horizontal and vertical layouts.
-- **Alignment & Justification:** Utilizing `justify-content` (center, space-between) and `align-items` to center content perfectly within sections.
+- **Alignment & Justification:** Utilizing `justify-content` and `align-items` to arrage and space content perfectly within sections.
 - **Flex Direction:** Switching between `row` and `column` layouts to stack elements or spread them out.
-- **Flex Wrap:** Ensuring content elements (like the information cards) behave correctly within their containers.
+- **Flex Wrap:** Ensuring content elements (like the information cards) behave correctly within their containers as screen width is adjusted.
 
 ### 2. The Box Model & Spacing
 
