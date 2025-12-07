@@ -1,5 +1,8 @@
 # Landing Page
 
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Focus](https://img.shields.io/badge/Focus-Flexbox_Layouts-violet)
+
 ## Description
 
 This project is a recreation of a landing page design provided by **The Odin Project**. The goal was to build a web page from scratch that closely matches a provided visual mockup and style guide, using custom HTML and CSS.
@@ -36,7 +39,7 @@ This project relies heavily on **Flexbox** to manage the layout structure. Key c
 ### 2. The Box Model & Spacing
 
 - **Margins vs. Padding:** Extensive practice in deciding when to use padding (for internal spacing and background continuity) versus margin (for spacing between distinct sibling elements).
-- **Sizing:** Managing `width`, `max-width`, and standardizing image sizes to ensure visual consistency across the page.
+- **Sizing:** Managing `width`, `height`, and standardizing image sizes to ensure visual consistency across the page.
 
 ### 3. CSS Architecture
 
